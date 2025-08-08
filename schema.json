@@ -48,9 +48,6 @@
             "items": {
               "type": "string"
             }
-          },
-          "meta": {
-            "type": "object"
           }
         }
       }
