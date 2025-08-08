@@ -1,0 +1,16 @@
+[
+  {
+    "id": "VN.district.22.06994-dac-khu-van-don",
+    "level": "district",
+    "official_code": null,
+    "name_vi": ".06994 Đặc khu Vân Đôn",
+    "slug": "06994-dac-khu-van-don",
+    "type": null,
+    "parent_province_id": "VN.province.22",
+    "postal_codes": [],
+    "tokens": [".06994 dac khu van don", "06994 dac khu van don", "dkvd"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  }
+]

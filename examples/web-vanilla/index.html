@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>VN Admin 2025 – Web Example</title>
+</head>
+<body>
+  <h1>VN Admin 2025 – Demo (Vanilla JS)</h1>
+  <input id="q" placeholder="vd: Hà Nội, ha noi, hn" />
+  <button id="btn">Search</button>
+  <pre id="out"></pre>
+
+  <script>
+    async function loadProvinces() {
+      // Khuyến nghị serve qua HTTP (vd: `npx serve`), tránh CORS khi mở file://
+      const res = await fetch('../../data/provinces.json');
+      return await res.json();
+    }
+    function normalize(s) {
+      return s.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/gi,'d').toLowerCase();
+    }
+    (async () => {
+      const provinces = await loadProvinces();
+      const out = document.getElementById('out');
+      const queryFn = () => {
+        const q = normalize(document.getElementById('q').value.trim());
+        const found = provinces.filter(p => (p.tokens||[]).some(t => t.includes(q)));
+        out.textContent = JSON.stringify(found.slice(0, 10), null, 2);
+      };
+      document.getElementById('btn').onclick = queryFn
+      document.getElementById('q').onkeydown = (e) => {
+        if (e.key === 'Enter') {
+          queryFn();
+        }
+      }
+    })();
+  </script>
+</body>
+</html>

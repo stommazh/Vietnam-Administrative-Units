@@ -1,0 +1,70 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Vietnam Administrative Units 2025",
+  "type": "object",
+  "properties": {
+    "version": {
+      "type": "object"
+    },
+    "provinces": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "level",
+          "code",
+          "name_vi",
+          "slug",
+          "tokens"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "level": {
+            "type": "string",
+            "enum": [
+              "province"
+            ]
+          },
+          "code": {
+            "type": "string"
+          },
+          "name_vi": {
+            "type": "string"
+          },
+          "slug": {
+            "type": "string"
+          },
+          "postal_codes": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tokens": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "meta": {
+            "type": "object"
+          }
+        }
+      }
+    },
+    "districts_by_province": {
+      "type": "object"
+    },
+    "communes_by_province": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "provinces",
+    "districts_by_province",
+    "communes_by_province"
+  ]
+}

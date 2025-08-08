@@ -1,0 +1,410 @@
+[
+  {
+    "id": "VN.province.01",
+    "level": "province",
+    "code": "01",
+    "name_vi": "Hà Nội",
+    "slug": "ha-noi",
+    "postal_codes": [],
+    "tokens": ["ha noi", "hn"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.04",
+    "level": "province",
+    "code": "04",
+    "name_vi": "Cao Bằng",
+    "slug": "cao-bang",
+    "postal_codes": [],
+    "tokens": ["cao bang", "cb"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.08",
+    "level": "province",
+    "code": "08",
+    "name_vi": "Tuyên Quang",
+    "slug": "tuyen-quang",
+    "postal_codes": [],
+    "tokens": ["tuyen quang", "tq"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.11",
+    "level": "province",
+    "code": "11",
+    "name_vi": "Điện Biên",
+    "slug": "dien-bien",
+    "postal_codes": [],
+    "tokens": ["dien bien", "db"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.12",
+    "level": "province",
+    "code": "12",
+    "name_vi": "Lai Châu",
+    "slug": "lai-chau",
+    "postal_codes": [],
+    "tokens": ["lai chau", "lc"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.14",
+    "level": "province",
+    "code": "14",
+    "name_vi": "Sơn La",
+    "slug": "son-la",
+    "postal_codes": [],
+    "tokens": ["son la", "sl"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.15",
+    "level": "province",
+    "code": "15",
+    "name_vi": "Lào Cai",
+    "slug": "lao-cai",
+    "postal_codes": [],
+    "tokens": ["lao cai", "lc"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.19",
+    "level": "province",
+    "code": "19",
+    "name_vi": "Thái Nguyên",
+    "slug": "thai-nguyen",
+    "postal_codes": [],
+    "tokens": ["thai nguyen", "tn"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.20",
+    "level": "province",
+    "code": "20",
+    "name_vi": "Lạng Sơn",
+    "slug": "lang-son",
+    "postal_codes": [],
+    "tokens": ["lang son", "ls"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.22",
+    "level": "province",
+    "code": "22",
+    "name_vi": "Quảng Ninh",
+    "slug": "quang-ninh",
+    "postal_codes": [],
+    "tokens": ["quang ninh", "qn"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.24",
+    "level": "province",
+    "code": "24",
+    "name_vi": "Bắc Ninh",
+    "slug": "bac-ninh",
+    "postal_codes": [],
+    "tokens": ["bac ninh", "bn"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.25",
+    "level": "province",
+    "code": "25",
+    "name_vi": "Phú Thọ",
+    "slug": "phu-tho",
+    "postal_codes": [],
+    "tokens": ["phu tho", "pt"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.31",
+    "level": "province",
+    "code": "31",
+    "name_vi": "Hải Phòng",
+    "slug": "hai-phong",
+    "postal_codes": [],
+    "tokens": ["hai phong", "hp"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.33",
+    "level": "province",
+    "code": "33",
+    "name_vi": "Hưng Yên",
+    "slug": "hung-yen",
+    "postal_codes": [],
+    "tokens": ["hung yen", "hy"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.37",
+    "level": "province",
+    "code": "37",
+    "name_vi": "Ninh Bình",
+    "slug": "ninh-binh",
+    "postal_codes": [],
+    "tokens": ["ninh binh", "nb"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.38",
+    "level": "province",
+    "code": "38",
+    "name_vi": "Thanh Hóa",
+    "slug": "thanh-hoa",
+    "postal_codes": [],
+    "tokens": ["thanh hoa", "th"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.40",
+    "level": "province",
+    "code": "40",
+    "name_vi": "Nghệ An",
+    "slug": "nghe-an",
+    "postal_codes": [],
+    "tokens": ["nghe an", "na"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.42",
+    "level": "province",
+    "code": "42",
+    "name_vi": "Hà Tĩnh",
+    "slug": "ha-tinh",
+    "postal_codes": [],
+    "tokens": ["ha tinh", "ht"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.44",
+    "level": "province",
+    "code": "44",
+    "name_vi": "Quảng Trị",
+    "slug": "quang-tri",
+    "postal_codes": [],
+    "tokens": ["quang tri", "qt"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.46",
+    "level": "province",
+    "code": "46",
+    "name_vi": "Huế",
+    "slug": "hue",
+    "postal_codes": [],
+    "tokens": ["hue", "h"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.48",
+    "level": "province",
+    "code": "48",
+    "name_vi": "Đà Nẵng",
+    "slug": "da-nang",
+    "postal_codes": [],
+    "tokens": ["da nang", "dn"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.51",
+    "level": "province",
+    "code": "51",
+    "name_vi": "Quảng Ngãi",
+    "slug": "quang-ngai",
+    "postal_codes": [],
+    "tokens": ["quang ngai", "qn"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.52",
+    "level": "province",
+    "code": "52",
+    "name_vi": "Gia Lai",
+    "slug": "gia-lai",
+    "postal_codes": [],
+    "tokens": ["gia lai", "gl"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.56",
+    "level": "province",
+    "code": "56",
+    "name_vi": "Khánh Hòa",
+    "slug": "khanh-hoa",
+    "postal_codes": [],
+    "tokens": ["khanh hoa", "kh"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.66",
+    "level": "province",
+    "code": "66",
+    "name_vi": "Đắk Lắk",
+    "slug": "dak-lak",
+    "postal_codes": [],
+    "tokens": ["dak lak", "dl"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.68",
+    "level": "province",
+    "code": "68",
+    "name_vi": "Lâm Đồng",
+    "slug": "lam-dong",
+    "postal_codes": [],
+    "tokens": ["lam dong", "ld"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.75",
+    "level": "province",
+    "code": "75",
+    "name_vi": "Đồng Nai",
+    "slug": "dong-nai",
+    "postal_codes": [],
+    "tokens": ["dong nai", "dn"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.79",
+    "level": "province",
+    "code": "79",
+    "name_vi": "Hồ Chí Minh",
+    "slug": "ho-chi-minh",
+    "postal_codes": [],
+    "tokens": ["ho chi minh", "hcm"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.80",
+    "level": "province",
+    "code": "80",
+    "name_vi": "Tây Ninh",
+    "slug": "tay-ninh",
+    "postal_codes": [],
+    "tokens": ["tay ninh", "tn"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.82",
+    "level": "province",
+    "code": "82",
+    "name_vi": "Đồng Tháp",
+    "slug": "dong-thap",
+    "postal_codes": [],
+    "tokens": ["dong thap", "dt"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.86",
+    "level": "province",
+    "code": "86",
+    "name_vi": "Vĩnh Long",
+    "slug": "vinh-long",
+    "postal_codes": [],
+    "tokens": ["vinh long", "vl"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.91",
+    "level": "province",
+    "code": "91",
+    "name_vi": "An Giang",
+    "slug": "an-giang",
+    "postal_codes": [],
+    "tokens": ["an giang", "ag"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.92",
+    "level": "province",
+    "code": "92",
+    "name_vi": "Cần Thơ",
+    "slug": "can-tho",
+    "postal_codes": [],
+    "tokens": ["can tho", "ct"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.province.96",
+    "level": "province",
+    "code": "96",
+    "name_vi": "Cà Mau",
+    "slug": "ca-mau",
+    "postal_codes": [],
+    "tokens": ["ca mau", "cm"],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  }
+]
