@@ -47,12 +47,12 @@
 
   <script>
     async function loadProvinces() {
-      const res = await fetch('../../data/provinces.json');
+      const res = await fetch('../../data/generated/provinces.json');
       return await res.json();
     }
 
     async function loadCommunesByProvince(provinceCode) {
-      const res = await fetch(`../../data/communes_by_province/${provinceCode}.json`);
+      const res = await fetch(`../../data/generated/communes_by_province/${provinceCode}.json`);
       return await res.json();
     }
 

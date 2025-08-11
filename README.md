@@ -25,23 +25,24 @@ Bộ dữ liệu **đơn vị hành chính Việt Nam sau sắp xếp 2025**, ch
 - Văn bản gốc: **19/2025/QĐ-TTg** – Bảng danh mục và mã số các đơn vị hành chính Việt Nam (hiệu lực 01/07/2025).  
   **URL**: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf
 
-> Lưu ý: quyết định trên **ban hành mã cấp tỉnh (Phụ l��c I) và cấp xã (Phụ lục II)**. Mã cấp **huyện** chưa có bảng mã tập trung; trong dataset này, ID huyện dùng dạng **synthetic ổn định** như trên. Khi cơ quan có thẩm quyền công bố mã huyện chính thức, có thể bổ sung vào trường `official_code` (không phá vỡ ID).
+> Lưu ý: quyết định trên **ban hành mã cấp tỉnh (Phụ lục I) và cấp xã (Phụ lục II)**. Mã cấp **huyện** chưa có bảng mã tập trung; trong dataset này, ID huyện dùng dạng **synthetic ổn định** như trên. Khi cơ quan có thẩm quyền công bố mã huyện chính thức, có thể bổ sung vào trường `official_code` (không phá vỡ ID).
 > Do file văn bản là hình ảnh, dữ liệu được đọc thủ công bằng mã và **CÓ THỂ BỊ SAI SÓT**.
 
 ### Trạng thái dữ liệu
-- `name_vi` **Không gồm prefix** (ví dụ: “Thành phố Hà Nội” → “Hà Nội”, “Quận Hoàn Kiếm” ��� “Hoàn Kiếm”, “Phường Tràng Tiền” → “Tràng Tiền”).
+- `name_vi` **Không gồm prefix** (ví dụ: “Thành phố Hà Nội” → “Hà Nội”, “Quận Hoàn Kiếm” → “Hoàn Kiếm”, “Phường Tràng Tiền” → “Tràng Tiền”).
 - `postal_codes`: để trống, chờ cập nhật sau sắp xếp.
 - Một số heading cấp huyện trong PDF có thể bị vỡ text → có thể còn `parent_district_id: null` ở vài xã. Sẽ cập nhật khi có nguồn text sạch hơn.
 
 ### Thư mục
 ```
 .
-├─ data.csv                      # 📊 Dữ liệu nguồn (CSV format)
-├─ data/                         # 📁 Generated JSON files
-│  ├─ vn_admin_2025.all.json     # All-in-one JSON
-│  ├─ provinces.json             # Danh sách tỉnh/thành
-│  ├─ districts_by_province/     # Huyện theo tỉnh
-│  └─ communes_by_province/      # Xã theo tỉnh
+├─ data/                         # 📁 Data files
+│  ├─ data.csv                   # 📊 Dữ liệu nguồn (CSV format)
+│  └─ generated/                 # 📁 Generated JSON files
+│     ├─ vn_admin_2025.all.json  # All-in-one JSON
+│     ├─ provinces.json          # Danh sách tỉnh/thành
+│     ├─ districts_by_province/  # Huyện theo tỉnh
+│     └─ communes_by_province/   # Xã theo tỉnh
 ├─ index.mjs                     # 🔧 Build script
 ├─ modules/                      # Build modules
 │  ├─ generator.js
@@ -70,7 +71,7 @@ npm install
 
 **Xây dựng lại từ CSV:**
 ```bash
-node index.mjs data.csv ./data
+node index.mjs ./data/data.csv ./data/generated
 ```
 
 > **Lưu ý**: Khi bạn cập nhật `data.csv` (thêm/sửa đơn vị hành chính), chạy lệnh trên để tạo lại các file JSON. Điều này đảm bảo tính đồng bộ giữa dữ liệu nguồn và các file JSON được sử dụng.
@@ -123,12 +124,13 @@ node index.mjs data.csv ./data
 ### Directory Structure
 ```
 .
-├─ data.csv                      # 📊 Dữ liệu nguồn (CSV format)
-├─ data/                         # 📁 Generated JSON files
-│  ├─ vn_admin_2025.all.json     # All-in-one JSON
-│  ├─ provinces.json             # Danh sách tỉnh/thành
-│  ├─ districts_by_province/     # Huyện theo tỉnh
-│  └─ communes_by_province/      # Xã theo tỉnh
+├─ data/                         # 📁 Data files
+│  ├─ data.csv                   # 📊 Source data (CSV format)
+│  └─ generated/                 # 📁 Generated JSON files
+│     ├─ vn_admin_2025.all.json  # All-in-one JSON
+│     ├─ provinces.json          # Provinces/Cities list
+│     ├─ districts_by_province/  # districts by province
+│     └─ communes_by_province/   # communes by province
 ├─ index.mjs                     # 🔧 Build script
 ├─ modules/                      # Build modules
 │  ├─ generator.js
@@ -150,7 +152,7 @@ node index.mjs data.csv ./data
 
 #### Method 1: Using "all-in-one"
 - Preferred when you want to **embed as single variable** (SSR/CSR, mobile offline).
-- File: `data/vn_admin_2025.all.json`
+- File: `data/generated/vn_admin_2025.all.json`
 
 **Node.js (ESM):**
 ```bash
@@ -170,10 +172,10 @@ npx serve .   # or python -m http.server
 ```
 
 #### Method 2: Using split files (lazy-load)
-- Read `data/provinces.json` for province dropdown.
+- Read `data/generated/provinces.json` for province dropdown.
 - When selecting a province `code`, load:
-  - `data/districts_by_province/<code>.json`
-  - `data/communes_by_province/<code>.json`
+  - `data/generated/districts_by_province/<code>.json`
+  - `data/generated/communes_by_province/<code>.json`
 
 ### Simplified Schema
 - **Province**: `id, level, code, name_vi, slug, postal_codes[], tokens[], meta.source`

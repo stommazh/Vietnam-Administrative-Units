@@ -1,7 +1,7 @@
 # Python example
 import json, pathlib
 
-base = pathlib.Path(__file__).resolve().parents[1] / 'data'
+base = pathlib.Path(__file__).resolve().parents[1] / 'data/generated'
 with open(base / 'vn_admin_2025.all.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
 
