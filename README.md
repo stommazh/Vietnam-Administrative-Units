@@ -2,15 +2,13 @@
 
 #### Generated: 2025-08-08T09:17:52.378085Z
 
-> 🤖 **Developer Note**: This dataset was generated with AI assistance. While we've made every effort to ensure accuracy, please validate the data against official sources before using in production applications. Community contributions and error reports are highly appreciated!
-
 **🇻🇳 [Tiếng Việt](#tiếng-việt) | 🇬🇧 [English](#english)**
 
 ---
 
 ## Tiếng Việt
 
-> 🤖 **Lưu ý cho Developer**: Bộ dữ liệu này được tạo ra với sự hỗ trợ của AI. Mặc dù mình đã cố gắng đảm bảo độ chính xác, vui lòng kiểm tra dữ liệu với nguồn chính thức trước khi sử dụng trong ứng dụng thực tế. Rất hoan nghênh các đóng góp và báo lỗi!
+> 🤖 **Lưu ý cho Developer**: Bộ dữ liệu này được tạo ra với sự hỗ trợ của AI trong việc quét dữ liệu từ file PDF. Mặc dù mình đã cố gắng đảm bảo độ chính xác, vui lòng kiểm tra dữ liệu với nguồn chính thức trước khi sử dụng trong ứng dụng thực tế. Rất hoan nghênh các đóng góp và báo lỗi!
 
 Bộ dữ liệu **đơn vị hành chính Việt Nam sau sắp xếp 2025**, chuẩn hoá để dùng đa nền tảng (Web/Mobile), kèm ví dụ tích hợp.
 
@@ -27,22 +25,29 @@ Bộ dữ liệu **đơn vị hành chính Việt Nam sau sắp xếp 2025**, ch
 - Văn bản gốc: **19/2025/QĐ-TTg** – Bảng danh mục và mã số các đơn vị hành chính Việt Nam (hiệu lực 01/07/2025).  
   **URL**: https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf
 
-> Lưu ý: quyết định trên **ban hành mã cấp tỉnh (Phụ lục I) và cấp xã (Phụ lục II)**. Mã cấp **huyện** chưa có bảng mã tập trung; trong dataset này, ID huyện dùng dạng **synthetic ổn định** như trên. Khi cơ quan có thẩm quyền công bố mã huyện chính thức, có thể bổ sung vào trường `official_code` (không phá vỡ ID).
+> Lưu ý: quyết định trên **ban hành mã cấp tỉnh (Phụ l��c I) và cấp xã (Phụ lục II)**. Mã cấp **huyện** chưa có bảng mã tập trung; trong dataset này, ID huyện dùng dạng **synthetic ổn định** như trên. Khi cơ quan có thẩm quyền công bố mã huyện chính thức, có thể bổ sung vào trường `official_code` (không phá vỡ ID).
 > Do file văn bản là hình ảnh, dữ liệu được đọc thủ công bằng mã và **CÓ THỂ BỊ SAI SÓT**.
 
 ### Trạng thái dữ liệu
-- `name_vi` **Không gồm prefix** (ví dụ: “Thành phố Hà Nội” → “Hà Nội”, “Quận Hoàn Kiếm” → “Hoàn Kiếm”, “Phường Tràng Tiền” → “Tràng Tiền”).
+- `name_vi` **Không gồm prefix** (ví dụ: “Thành phố Hà Nội” → “Hà Nội”, “Quận Hoàn Kiếm” ��� “Hoàn Kiếm”, “Phường Tràng Tiền” → “Tràng Tiền”).
 - `postal_codes`: để trống, chờ cập nhật sau sắp xếp.
 - Một số heading cấp huyện trong PDF có thể bị vỡ text → có thể còn `parent_district_id: null` ở vài xã. Sẽ cập nhật khi có nguồn text sạch hơn.
 
 ### Thư mục
 ```
 .
-├─ data/
-│  ├─ vn_admin_2025.all.json
-│  ├─ provinces.json
-│  ├─ districts_by_province/
-│  └─ communes_by_province/
+├─ data.csv                      # 📊 Dữ liệu nguồn (CSV format)
+├─ data/                         # 📁 Generated JSON files
+│  ├─ vn_admin_2025.all.json     # All-in-one JSON
+│  ├─ provinces.json             # Danh sách tỉnh/thành
+│  ├─ districts_by_province/     # Huyện theo tỉnh
+│  └─ communes_by_province/      # Xã theo tỉnh
+├─ index.mjs                     # 🔧 Build script
+├─ modules/                      # Build modules
+│  ├─ generator.js
+│  ├─ io.js
+│  ├─ normalize.js
+│  └─ tokens.js
 ├─ examples/
 │  ├─ web-vanilla/ (index.html)
 │  ├─ node/ (index.mjs)
@@ -50,40 +55,25 @@ Bộ dữ liệu **đơn vị hành chính Việt Nam sau sắp xếp 2025**, ch
 │  ├─ android-kotlin/ (Example.kt)
 │  ├─ ios-swift/ (Example.swift)
 │  └─ flutter/ (main.dart)
-├─ scripts/
-│  └─ parse_annex_pdf_to_json.py
 ├─ schema.json
-└─ .gitignore
+└─ package.json
 ```
 
-### Cài đặt & sử dụng
+### Xây dựng lại dữ liệu JSON
 
-#### Cách 1: Dùng “all-in-one”
-- Ưu tiên khi muốn **nhúng 1 biến** (SSR/CSR, mobile offline).
-- File: `data/vn_admin_2025.all.json`
+Các file JSON trong thư mục `data/` được tạo ra từ file nguồn `data.csv`. Để cập nhật hoặc xây dựng lại:
 
-**Node.js (ESM):**
+**Cài đặt dependencies:**
 ```bash
-node examples/node/index.mjs
+npm install
 ```
 
-**Python:**
+**Xây dựng lại từ CSV:**
 ```bash
-python examples/python/example.py
+node index.mjs data.csv ./data
 ```
 
-**Web (vanilla):**
-Trong thư mục repo, chạy:
-```bash
-npx serve .
-
-```
-mở http://localhost:3000/examples/web-vanilla/
-#### Cách 2: Dùng bản chia nhỏ (lazy-load)
-- Đọc `data/provinces.json` cho dropdown tỉnh.
-- Khi chọn 1 tỉnh `code`, tải:
-  - `data/districts_by_province/<code>.json`
-  - `data/communes_by_province/<code>.json`
+> **Lưu ý**: Khi bạn cập nhật `data.csv` (thêm/sửa đơn vị hành chính), chạy lệnh trên để tạo lại các file JSON. Điều này đảm bảo tính đồng bộ giữa dữ liệu nguồn và các file JSON được sử dụng.
 
 ### Schema rút gọn
 - **Province**: `id, level, code, name_vi, slug, postal_codes[], tokens[], meta.source`
@@ -106,6 +96,8 @@ mở http://localhost:3000/examples/web-vanilla/
 ## English
 
 **Vietnamese Administrative Units Dataset (Post-2025 Reorganization)** - Standardized for cross-platform use (Web/Mobile) with integration examples.
+
+> 🤖 **Developer Note**: This dataset was generated with AI assistance for parsing data from a non-structured PDF file. While we've made every effort to ensure accuracy, please validate the data against official sources before using in production applications. Community contributions and error reports are highly appreciated!
 
 ### Features
 - **3-tier structure**: Province/City → District/County/Town/City under Province → Ward/Commune/Town.
@@ -131,11 +123,18 @@ mở http://localhost:3000/examples/web-vanilla/
 ### Directory Structure
 ```
 .
-├─ data/
-│  ├─ vn_admin_2025.all.json
-│  ├─ provinces.json
-│  ├─ districts_by_province/
-│  └─ communes_by_province/
+├─ data.csv                      # 📊 Dữ liệu nguồn (CSV format)
+├─ data/                         # 📁 Generated JSON files
+│  ├─ vn_admin_2025.all.json     # All-in-one JSON
+│  ├─ provinces.json             # Danh sách tỉnh/thành
+│  ├─ districts_by_province/     # Huyện theo tỉnh
+│  └─ communes_by_province/      # Xã theo tỉnh
+├─ index.mjs                     # 🔧 Build script
+├─ modules/                      # Build modules
+│  ├─ generator.js
+│  ├─ io.js
+│  ├─ normalize.js
+│  └─ tokens.js
 ├─ examples/
 │  ├─ web-vanilla/ (index.html)
 │  ├─ node/ (index.mjs)
@@ -143,10 +142,8 @@ mở http://localhost:3000/examples/web-vanilla/
 │  ├─ android-kotlin/ (Example.kt)
 │  ├─ ios-swift/ (Example.swift)
 │  └─ flutter/ (main.dart)
-├─ scripts/
-│  └─ parse_annex_pdf_to_json.py
 ├─ schema.json
-└─ .gitignore
+└─ package.json
 ```
 
 ### Installation & Usage

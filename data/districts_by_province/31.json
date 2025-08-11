@@ -1,13 +1,1 @@
-[
-  {
-    "id": "VN.district.31.dac-khu-bach-long-vi",
-    "level": "district",
-    "official_code": null,
-    "name_vi": "Đặc khu Bạch Long Vĩ",
-    "slug": "dac-khu-bach-long-vi",
-    "type": null,
-    "parent_province_id": "VN.province.31",
-    "postal_codes": [],
-    "tokens": ["dac khu bach long vi", "dkblv"]
-  }
-]
+[]

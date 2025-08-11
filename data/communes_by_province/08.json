@@ -1,1333 +1,1730 @@
 [
   {
-    "id": "VN.commune.00691",
+    "id": "VN.commune.00865",
     "level": "commune",
-    "code": "00691",
+    "admin_type": "phuong",
+    "code": "00865",
     "name_vi": "Hà Giang 2",
     "slug": "ha-giang-2",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["ha giang 2", "hg", "hg2"]
+    "tokens": [
+      "ha giang 2",
+      "hg2"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00694",
+    "id": "VN.commune.00871",
     "level": "commune",
-    "code": "00694",
-    "name_vi": "Hà Giang Ì",
-    "slug": "ha-giang-i",
+    "admin_type": "phuong",
+    "code": "00871",
+    "name_vi": "Hà Giang 1",
+    "slug": "ha-giang-1",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["ha giang i", "hgi"]
+    "tokens": [
+      "ha giang 1",
+      "hg1"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02212",
+    "id": "VN.commune.00874",
     "level": "commune",
-    "code": "02212",
-    "name_vi": "Nông Tiền",
+    "admin_type": "phuong",
+    "code": "00874",
+    "name_vi": "Nông Tiến",
     "slug": "nong-tien",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["nong tien", "nt"]
+    "tokens": [
+      "nong tien",
+      "nt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02215",
+    "id": "VN.commune.00883",
     "level": "commune",
-    "code": "02215",
+    "admin_type": "phuong",
+    "code": "00883",
     "name_vi": "Minh Xuân",
     "slug": "minh-xuan",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["minh xuan", "mx"]
+    "tokens": [
+      "minh xuan",
+      "mx"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02509",
+    "id": "VN.commune.00889",
     "level": "commune",
-    "code": "02509",
+    "admin_type": "phuong",
+    "code": "00889",
     "name_vi": "Mỹ Lâm",
     "slug": "my-lam",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["my lam", "ml"]
+    "tokens": [
+      "my lam",
+      "ml"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02512",
+    "id": "VN.commune.00892",
     "level": "commune",
-    "code": "02512",
+    "admin_type": "phuong",
+    "code": "00892",
     "name_vi": "An Tường",
     "slug": "an-tuong",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["an tuong", "at"]
+    "tokens": [
+      "an tuong",
+      "at"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02524",
+    "id": "VN.commune.00901",
     "level": "commune",
-    "code": "02524",
+    "admin_type": "phuong",
+    "code": "00901",
     "name_vi": "Bình Thuận",
     "slug": "binh-thuan",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["binh thuan", "bt"]
+    "tokens": [
+      "binh thuan",
+      "bt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00700",
+    "id": "VN.commune.00913",
     "level": "commune",
-    "code": "00700",
+    "admin_type": "xa",
+    "code": "00913",
     "name_vi": "Ngọc Đường",
     "slug": "ngoc-duong",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["ngoc duong", "nd"]
+    "tokens": [
+      "ngoc duong",
+      "nd"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00706",
+    "id": "VN.commune.00919",
     "level": "commune",
-    "code": "00706",
+    "admin_type": "xa",
+    "code": "00919",
     "name_vi": "Phú Linh",
     "slug": "phu-linh",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["phu linh", "pl"]
+    "tokens": [
+      "phu linh",
+      "pl"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00715",
+    "id": "VN.commune.00922",
     "level": "commune",
-    "code": "00715",
+    "admin_type": "xa",
+    "code": "00922",
     "name_vi": "Lũng Cú",
     "slug": "lung-cu",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["lung cu", "lc"]
+    "tokens": [
+      "lung cu",
+      "lc"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00721",
+    "id": "VN.commune.00925",
     "level": "commune",
-    "code": "00721",
+    "admin_type": "xa",
+    "code": "00925",
     "name_vi": "Đồng Văn",
     "slug": "dong-van",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["dong van", "dv"]
+    "tokens": [
+      "dong van",
+      "dv"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00733",
+    "id": "VN.commune.00928",
     "level": "commune",
-    "code": "00733",
+    "admin_type": "xa",
+    "code": "00928",
     "name_vi": "Sà Phìn",
     "slug": "sa-phin",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["sa phin", "sp"]
+    "tokens": [
+      "sa phin",
+      "sp"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00745",
+    "id": "VN.commune.00937",
     "level": "commune",
-    "code": "00745",
+    "admin_type": "xa",
+    "code": "00937",
     "name_vi": "Phố Bảng",
     "slug": "pho-bang",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["pho bang", "pb"]
+    "tokens": [
+      "pho bang",
+      "pb"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00763",
+    "id": "VN.commune.00952",
     "level": "commune",
-    "code": "00763",
-    "name_vi": "Lũng Phin",
+    "admin_type": "xa",
+    "code": "00952",
+    "name_vi": "Lũng Phìn",
     "slug": "lung-phin",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["lung phin", "lp"]
+    "tokens": [
+      "lung phin",
+      "lp"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00769",
+    "id": "VN.commune.00958",
     "level": "commune",
-    "code": "00769",
+    "admin_type": "xa",
+    "code": "00958",
     "name_vi": "Mèo Vạc",
     "slug": "meo-vac",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["meo vac", "mv"]
+    "tokens": [
+      "meo vac",
+      "mv"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00778",
+    "id": "VN.commune.00967",
     "level": "commune",
-    "code": "00778",
+    "admin_type": "xa",
+    "code": "00967",
     "name_vi": "Sơn Vĩ",
     "slug": "son-vi",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["son vi", "sv"]
+    "tokens": [
+      "son vi",
+      "sv"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00787",
+    "id": "VN.commune.00970",
     "level": "commune",
-    "code": "00787",
+    "admin_type": "xa",
+    "code": "00970",
     "name_vi": "Sủng Máng",
     "slug": "sung-mang",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["sung mang", "sm"]
+    "tokens": [
+      "sung mang",
+      "sm"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00802",
+    "id": "VN.commune.00976",
     "level": "commune",
-    "code": "00802",
+    "admin_type": "xa",
+    "code": "00976",
     "name_vi": "Khâu Vai",
     "slug": "khau-vai",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["khau vai", "kv"]
+    "tokens": [
+      "khau vai",
+      "kv"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00808",
+    "id": "VN.commune.00982",
     "level": "commune",
-    "code": "00808",
+    "admin_type": "xa",
+    "code": "00982",
     "name_vi": "Tát Ngà",
     "slug": "tat-nga",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["tat nga", "tn"]
+    "tokens": [
+      "tat nga",
+      "tn"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00817",
+    "id": "VN.commune.00985",
     "level": "commune",
-    "code": "00817",
-    "name_vi": "Niêm Sơn",
+    "admin_type": "xa",
+    "code": "00985",
+    "name_vi": "Niêm Son",
     "slug": "niem-son",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["niem son", "ns"]
+    "tokens": [
+      "niem son",
+      "ns"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00820",
+    "id": "VN.commune.00991",
     "level": "commune",
-    "code": "00820",
+    "admin_type": "xa",
+    "code": "00991",
     "name_vi": "Yên Minh",
     "slug": "yen-minh",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["yen minh", "ym"]
+    "tokens": [
+      "yen minh",
+      "ym"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00829",
+    "id": "VN.commune.00994",
     "level": "commune",
-    "code": "00829",
+    "admin_type": "xa",
+    "code": "00994",
     "name_vi": "Thắng Mố",
     "slug": "thang-mo",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["thang mo", "tm"]
+    "tokens": [
+      "thang mo",
+      "tm"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00832",
+    "id": "VN.commune.01006",
     "level": "commune",
-    "code": "00832",
+    "admin_type": "xa",
+    "code": "01006",
     "name_vi": "Bạch Đích",
     "slug": "bach-dich",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["bach dich", "bd"]
+    "tokens": [
+      "bach dich",
+      "bd"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00859",
+    "id": "VN.commune.01012",
     "level": "commune",
-    "code": "00859",
+    "admin_type": "xa",
+    "code": "01012",
+    "name_vi": "Mậu Duệ",
+    "slug": "mau-due",
+    "parent_province_id": "VN.province.08",
+    "parent_district_id": null,
+    "postal_codes": [],
+    "tokens": [
+      "mau due",
+      "md"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
+  },
+  {
+    "id": "VN.commune.01021",
+    "level": "commune",
+    "admin_type": "xa",
+    "code": "01021",
     "name_vi": "Ngọc Long",
     "slug": "ngoc-long",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["ngoc long", "nl"]
+    "tokens": [
+      "ngoc long",
+      "nl"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00865",
+    "id": "VN.commune.01057",
     "level": "commune",
-    "code": "00865",
+    "admin_type": "xa",
+    "code": "01057",
     "name_vi": "Đường Thượng",
     "slug": "duong-thuong",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["duong thuong", "dt"]
+    "tokens": [
+      "duong thuong",
+      "dt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00871",
+    "id": "VN.commune.01075",
     "level": "commune",
-    "code": "00871",
+    "admin_type": "xa",
+    "code": "01075",
     "name_vi": "Du Già",
     "slug": "du-gia",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["du gia", "dg"]
+    "tokens": [
+      "du gia",
+      "dg"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00874",
+    "id": "VN.commune.01084",
     "level": "commune",
-    "code": "00874",
+    "admin_type": "xa",
+    "code": "01084",
     "name_vi": "Quản Bạ",
     "slug": "quan-ba",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["ba", "quan ba", "b"]
+    "tokens": [
+      "quan ba",
+      "b"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00883",
+    "id": "VN.commune.01090",
     "level": "commune",
-    "code": "00883",
+    "admin_type": "xa",
+    "code": "01090",
     "name_vi": "Cán Tỷ",
     "slug": "can-ty",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["can ty", "ct"]
+    "tokens": [
+      "can ty",
+      "ct"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00889",
+    "id": "VN.commune.01096",
     "level": "commune",
-    "code": "00889",
+    "admin_type": "xa",
+    "code": "01096",
     "name_vi": "Nghĩa Thuận",
     "slug": "nghia-thuan",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["nghia thuan", "nt"]
+    "tokens": [
+      "nghia thuan",
+      "nt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00892",
+    "id": "VN.commune.01108",
     "level": "commune",
-    "code": "00892",
+    "admin_type": "xa",
+    "code": "01108",
     "name_vi": "Tùng Vài",
     "slug": "tung-vai",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["tung vai", "tv"]
+    "tokens": [
+      "tung vai",
+      "tv"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00901",
+    "id": "VN.commune.01117",
     "level": "commune",
-    "code": "00901",
+    "admin_type": "xa",
+    "code": "01117",
     "name_vi": "Lùng Tám",
     "slug": "lung-tam",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["lung tam", "lt"]
+    "tokens": [
+      "lung tam",
+      "lt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00913",
+    "id": "VN.commune.01141",
     "level": "commune",
-    "code": "00913",
+    "admin_type": "xa",
+    "code": "01141",
     "name_vi": "Vị Xuyên",
     "slug": "vi-xuyen",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["vi xuyen", "vx"]
+    "tokens": [
+      "vi xuyen",
+      "vx"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00919",
+    "id": "VN.commune.01144",
     "level": "commune",
-    "code": "00919",
+    "admin_type": "xa",
+    "code": "01144",
     "name_vi": "Minh Tân",
     "slug": "minh-tan",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["minh tan", "mt"]
+    "tokens": [
+      "minh tan",
+      "mt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00922",
+    "id": "VN.commune.01147",
     "level": "commune",
-    "code": "00922",
+    "admin_type": "xa",
+    "code": "01147",
     "name_vi": "Thuận Hòa",
     "slug": "thuan-hoa",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["thuan hoa", "th"]
+    "tokens": [
+      "thuan hoa",
+      "th"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00925",
+    "id": "VN.commune.01153",
     "level": "commune",
-    "code": "00925",
+    "admin_type": "xa",
+    "code": "01153",
     "name_vi": "Tùng Bá",
     "slug": "tung-ba",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["tung ba", "tb"]
+    "tokens": [
+      "tung ba",
+      "tb"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00928",
+    "id": "VN.commune.01156",
     "level": "commune",
-    "code": "00928",
+    "admin_type": "xa",
+    "code": "01156",
     "name_vi": "Thanh Thủy",
     "slug": "thanh-thuy",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["thanh thuy", "tt"]
+    "tokens": [
+      "thanh thuy",
+      "tt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00937",
+    "id": "VN.commune.01165",
     "level": "commune",
-    "code": "00937",
+    "admin_type": "xa",
+    "code": "01165",
     "name_vi": "Lao Chải",
     "slug": "lao-chai",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["lao chai", "lc"]
+    "tokens": [
+      "lao chai",
+      "lc"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00952",
+    "id": "VN.commune.01171",
     "level": "commune",
-    "code": "00952",
+    "admin_type": "xa",
+    "code": "01171",
     "name_vi": "Cao Bồ",
     "slug": "cao-bo",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["cao bo", "cb"]
+    "tokens": [
+      "cao bo",
+      "cb"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00958",
+    "id": "VN.commune.01180",
     "level": "commune",
-    "code": "00958",
+    "admin_type": "xa",
+    "code": "01180",
     "name_vi": "Thượng Sơn",
     "slug": "thuong-son",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["thuong son", "ts"]
+    "tokens": [
+      "thuong son",
+      "ts"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00967",
+    "id": "VN.commune.01192",
     "level": "commune",
-    "code": "00967",
+    "admin_type": "xa",
+    "code": "01192",
     "name_vi": "Việt Lâm",
     "slug": "viet-lam",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["viet lam", "vl"]
+    "tokens": [
+      "viet lam",
+      "vl"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00970",
+    "id": "VN.commune.01201",
     "level": "commune",
-    "code": "00970",
+    "admin_type": "xa",
+    "code": "01201",
     "name_vi": "Linh Hồ",
     "slug": "linh-ho",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["linh ho", "lh"]
+    "tokens": [
+      "linh ho",
+      "lh"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00976",
+    "id": "VN.commune.01216",
     "level": "commune",
-    "code": "00976",
+    "admin_type": "xa",
+    "code": "01216",
     "name_vi": "Bạch Ngọc",
     "slug": "bach-ngoc",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["bach ngoc", "bn"]
+    "tokens": [
+      "bach ngoc",
+      "bn"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00982",
+    "id": "VN.commune.01225",
     "level": "commune",
-    "code": "00982",
+    "admin_type": "xa",
+    "code": "01225",
     "name_vi": "Minh Sơn",
     "slug": "minh-son",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["minh son", "ms"]
+    "tokens": [
+      "minh son",
+      "ms"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00985",
+    "id": "VN.commune.01234",
     "level": "commune",
-    "code": "00985",
+    "admin_type": "xa",
+    "code": "01234",
     "name_vi": "Giáp Trung",
     "slug": "giap-trung",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["giap trung", "gt"]
+    "tokens": [
+      "giap trung",
+      "gt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00991",
+    "id": "VN.commune.01237",
     "level": "commune",
-    "code": "00991",
+    "admin_type": "xa",
+    "code": "01237",
     "name_vi": "Bắc Mê",
     "slug": "bac-me",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["bac me", "bm"]
+    "tokens": [
+      "bac me",
+      "bm"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.00994",
+    "id": "VN.commune.01243",
     "level": "commune",
-    "code": "00994",
+    "admin_type": "xa",
+    "code": "01243",
     "name_vi": "Minh Ngọc",
     "slug": "minh-ngoc",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["minh ngoc", "mn"]
+    "tokens": [
+      "minh ngoc",
+      "mn"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01006",
+    "id": "VN.commune.01246",
     "level": "commune",
-    "code": "01006",
+    "admin_type": "xa",
+    "code": "01246",
     "name_vi": "Yên Cường",
     "slug": "yen-cuong",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["yen cuong", "yc"]
+    "tokens": [
+      "yen cuong",
+      "yc"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01012",
+    "id": "VN.commune.01255",
     "level": "commune",
-    "code": "01012",
-    "name_vi": "Xã Đường Hồng",
-    "slug": "xa-duong-hong",
+    "admin_type": "xa",
+    "code": "01255",
+    "name_vi": "Đường Hồng",
+    "slug": "duong-hong",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["xa duong hong", "duong hong", "xdh"]
+    "tokens": [
+      "duong hong",
+      "dh"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01021",
+    "id": "VN.commune.01261",
     "level": "commune",
-    "code": "01021",
+    "admin_type": "xa",
+    "code": "01261",
     "name_vi": "Hoàng Su Phì",
     "slug": "hoang-su-phi",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["hoang su phi", "hsp"]
+    "tokens": [
+      "hoang su phi",
+      "hsp"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01024",
+    "id": "VN.commune.02221",
     "level": "commune",
-    "code": "01024",
+    "admin_type": "xa",
+    "code": "02221",
     "name_vi": "Bản Máy",
     "slug": "ban-may",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["ban may", "bm"]
+    "tokens": [
+      "ban may",
+      "bm"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01033",
+    "id": "VN.commune.02239",
     "level": "commune",
-    "code": "01033",
+    "admin_type": "xa",
+    "code": "02239",
     "name_vi": "Thàng Tín",
     "slug": "thang-tin",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["thang tin", "tt"]
+    "tokens": [
+      "thang tin",
+      "tt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01051",
+    "id": "VN.commune.02245",
     "level": "commune",
-    "code": "01051",
+    "admin_type": "xa",
+    "code": "02245",
     "name_vi": "Tân Tiến",
     "slug": "tan-tien",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["tan tien", "tt"]
+    "tokens": [
+      "tan tien",
+      "tt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01057",
+    "id": "VN.commune.02248",
     "level": "commune",
-    "code": "01057",
+    "admin_type": "xa",
+    "code": "02248",
     "name_vi": "Pờ Ly Ngài",
     "slug": "po-ly-ngai",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["po ly ngai", "pln"]
+    "tokens": [
+      "po ly ngai",
+      "pln"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01075",
+    "id": "VN.commune.02260",
     "level": "commune",
-    "code": "01075",
+    "admin_type": "xa",
+    "code": "02260",
     "name_vi": "Nậm Dịch",
     "slug": "nam-dich",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["nam dich", "nd"]
+    "tokens": [
+      "nam dich",
+      "nd"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01084",
+    "id": "VN.commune.02266",
     "level": "commune",
-    "code": "01084",
+    "admin_type": "xa",
+    "code": "02266",
     "name_vi": "Hồ Thầu",
     "slug": "ho-thau",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["ho thau", "ht"]
+    "tokens": [
+      "ho thau",
+      "ht"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01090",
+    "id": "VN.commune.02269",
     "level": "commune",
-    "code": "01090",
+    "admin_type": "xa",
+    "code": "02269",
     "name_vi": "Thông Nguyên",
     "slug": "thong-nguyen",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["thong nguyen", "tn"]
+    "tokens": [
+      "thong nguyen",
+      "tn"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01096",
+    "id": "VN.commune.02287",
     "level": "commune",
-    "code": "01096",
+    "admin_type": "xa",
+    "code": "02287",
     "name_vi": "Pà Vầy Sủ",
     "slug": "pa-vay-su",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["pa vay su", "pvs"]
+    "tokens": [
+      "pa vay su",
+      "pvs"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01108",
+    "id": "VN.commune.02296",
     "level": "commune",
-    "code": "01108",
-    "name_vi": "Xin Mẫn",
+    "admin_type": "xa",
+    "code": "02296",
+    "name_vi": "Xin Mần",
     "slug": "xin-man",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["xin man", "xm"]
+    "tokens": [
+      "xin man",
+      "xm"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01117",
+    "id": "VN.commune.02302",
     "level": "commune",
-    "code": "01117",
+    "admin_type": "xa",
+    "code": "02302",
     "name_vi": "Trung Thịnh",
     "slug": "trung-thinh",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["trung thinh", "tt"]
+    "tokens": [
+      "trung thinh",
+      "tt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01141",
+    "id": "VN.commune.02305",
     "level": "commune",
-    "code": "01141",
-    "name_vi": "Nâm Dẫn",
+    "admin_type": "xa",
+    "code": "02305",
+    "name_vi": "Nấm Dẩn",
     "slug": "nam-dan",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["nam dan", "nd"]
+    "tokens": [
+      "nam dan",
+      "nd"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01144",
+    "id": "VN.commune.02308",
     "level": "commune",
-    "code": "01144",
+    "admin_type": "xa",
+    "code": "02308",
     "name_vi": "Quảng Nguyên",
     "slug": "quang-nguyen",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["quang nguyen", "qn"]
+    "tokens": [
+      "quang nguyen",
+      "qn"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01147",
+    "id": "VN.commune.02317",
     "level": "commune",
-    "code": "01147",
+    "admin_type": "xa",
+    "code": "02317",
     "name_vi": "Khuôn Lùng",
     "slug": "khuon-lung",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["khuon lung", "kl"]
+    "tokens": [
+      "khuon lung",
+      "kl"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01153",
+    "id": "VN.commune.02320",
     "level": "commune",
-    "code": "01153",
+    "admin_type": "xa",
+    "code": "02320",
     "name_vi": "Bắc Quang",
     "slug": "bac-quang",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["bac quang", "bq"]
+    "tokens": [
+      "bac quang",
+      "bq"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01156",
+    "id": "VN.commune.02332",
     "level": "commune",
-    "code": "01156",
+    "admin_type": "xa",
+    "code": "02332",
     "name_vi": "Vĩnh Tuy",
     "slug": "vinh-tuy",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["vinh tuy", "vt"]
+    "tokens": [
+      "vinh tuy",
+      "vt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01165",
+    "id": "VN.commune.02350",
     "level": "commune",
-    "code": "01165",
-    "name_vi": "Đông Tâm",
+    "admin_type": "xa",
+    "code": "02350",
+    "name_vi": "Đồng Tâm",
     "slug": "dong-tam",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["dong tam", "dt"]
+    "tokens": [
+      "dong tam",
+      "dt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01171",
+    "id": "VN.commune.02353",
     "level": "commune",
-    "code": "01171",
+    "admin_type": "xa",
+    "code": "02353",
     "name_vi": "Tân Quang",
     "slug": "tan-quang",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["tan quang", "tq"]
+    "tokens": [
+      "tan quang",
+      "tq"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01180",
+    "id": "VN.commune.02359",
     "level": "commune",
-    "code": "01180",
+    "admin_type": "xa",
+    "code": "02359",
     "name_vi": "Bằng Hành",
     "slug": "bang-hanh",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["bang hanh", "bh"]
+    "tokens": [
+      "bang hanh",
+      "bh"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01192",
+    "id": "VN.commune.02365",
     "level": "commune",
-    "code": "01192",
+    "admin_type": "xa",
+    "code": "02365",
     "name_vi": "Liên Hiệp",
     "slug": "lien-hiep",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["lien hiep", "lh"]
+    "tokens": [
+      "lien hiep",
+      "lh"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01201",
+    "id": "VN.commune.02374",
     "level": "commune",
-    "code": "01201",
+    "admin_type": "xa",
+    "code": "02374",
     "name_vi": "Hùng An",
     "slug": "hung-an",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["hung an", "ha"]
+    "tokens": [
+      "hung an",
+      "ha"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01216",
+    "id": "VN.commune.02380",
     "level": "commune",
-    "code": "01216",
+    "admin_type": "xa",
+    "code": "02380",
     "name_vi": "Đồng Yên",
     "slug": "dong-yen",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["dong yen", "dy"]
+    "tokens": [
+      "dong yen",
+      "dy"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01225",
+    "id": "VN.commune.02392",
     "level": "commune",
-    "code": "01225",
+    "admin_type": "xa",
+    "code": "02392",
     "name_vi": "Tiên Nguyên",
     "slug": "tien-nguyen",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["tien nguyen", "tn"]
+    "tokens": [
+      "tien nguyen",
+      "tn"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01234",
+    "id": "VN.commune.02398",
     "level": "commune",
-    "code": "01234",
+    "admin_type": "xa",
+    "code": "02398",
     "name_vi": "Yên Thành",
     "slug": "yen-thanh",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["yen thanh", "yt"]
+    "tokens": [
+      "yen thanh",
+      "yt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01237",
+    "id": "VN.commune.02404",
     "level": "commune",
-    "code": "01237",
-    "name_vi": "xã Quang Bình",
-    "slug": "xa-quang-binh",
+    "admin_type": "xa",
+    "code": "02404",
+    "name_vi": "Quang Bình",
+    "slug": "quang-binh",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["quang binh", "xa quang binh", "qb"]
+    "tokens": [
+      "quang binh",
+      "qb"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01243",
+    "id": "VN.commune.02407",
     "level": "commune",
-    "code": "01243",
+    "admin_type": "xa",
+    "code": "02407",
     "name_vi": "Tân Trịnh",
     "slug": "tan-trinh",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["tan trinh", "tt"]
+    "tokens": [
+      "tan trinh",
+      "tt"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01246",
+    "id": "VN.commune.02419",
     "level": "commune",
-    "code": "01246",
+    "admin_type": "xa",
+    "code": "02419",
     "name_vi": "Bằng Lang",
     "slug": "bang-lang",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["bang lang", "bl"]
+    "tokens": [
+      "bang lang",
+      "bl"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01255",
+    "id": "VN.commune.02425",
     "level": "commune",
-    "code": "01255",
+    "admin_type": "xa",
+    "code": "02425",
     "name_vi": "Xuân Giang",
     "slug": "xuan-giang",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["xuan giang", "xg"]
+    "tokens": [
+      "xuan giang",
+      "xg"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.01261",
+    "id": "VN.commune.02434",
     "level": "commune",
-    "code": "01261",
+    "admin_type": "xa",
+    "code": "02434",
     "name_vi": "Tiên Yên",
     "slug": "tien-yen",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["tien yen", "ty"]
+    "tokens": [
+      "tien yen",
+      "ty"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02221",
+    "id": "VN.commune.02437",
     "level": "commune",
-    "code": "02221",
+    "admin_type": "xa",
+    "code": "02437",
     "name_vi": "Nà Hang",
     "slug": "na-hang",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["na hang", "nh"]
+    "tokens": [
+      "na hang",
+      "nh"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02239",
+    "id": "VN.commune.02449",
     "level": "commune",
-    "code": "02239",
+    "admin_type": "xa",
+    "code": "02449",
     "name_vi": "Thượng Nông",
     "slug": "thuong-nong",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["thuong nong", "tn"]
+    "tokens": [
+      "thuong nong",
+      "tn"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02245",
+    "id": "VN.commune.02455",
     "level": "commune",
-    "code": "02245",
+    "admin_type": "xa",
+    "code": "02455",
     "name_vi": "Côn Lôn",
     "slug": "con-lon",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["con lon", "cl"]
+    "tokens": [
+      "con lon",
+      "cl"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02248",
+    "id": "VN.commune.02458",
     "level": "commune",
-    "code": "02248",
+    "admin_type": "xa",
+    "code": "02458",
     "name_vi": "Yên Hoa",
     "slug": "yen-hoa",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["yen hoa", "yh"]
+    "tokens": [
+      "yen hoa",
+      "yh"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02260",
+    "id": "VN.commune.02470",
     "level": "commune",
-    "code": "02260",
+    "admin_type": "xa",
+    "code": "02470",
     "name_vi": "Hồng Thái",
     "slug": "hong-thai",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["hong thai", "ht"]
+    "tokens": [
+      "hong thai",
+      "ht"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02266",
+    "id": "VN.commune.02473",
     "level": "commune",
-    "code": "02266",
+    "admin_type": "xa",
+    "code": "02473",
     "name_vi": "Lâm Bình",
     "slug": "lam-binh",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["lam binh", "lb"]
+    "tokens": [
+      "lam binh",
+      "lb"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02269",
+    "id": "VN.commune.02494",
     "level": "commune",
-    "code": "02269",
+    "admin_type": "xa",
+    "code": "02494",
     "name_vi": "Thượng Lâm",
     "slug": "thuong-lam",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["thuong lam", "tl"]
+    "tokens": [
+      "thuong lam",
+      "tl"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02287",
+    "id": "VN.commune.02530",
     "level": "commune",
-    "code": "02287",
+    "admin_type": "xa",
+    "code": "02530",
     "name_vi": "Chiêm Hóa",
     "slug": "chiem-hoa",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["chiem hoa", "ch"]
+    "tokens": [
+      "chiem hoa",
+      "ch"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02296",
+    "id": "VN.commune.02536",
     "level": "commune",
-    "code": "02296",
-    "name_vi": "Xã Bình An",
-    "slug": "xa-binh-an",
+    "admin_type": "xa",
+    "code": "02536",
+    "name_vi": "Bình An",
+    "slug": "binh-an",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["xa binh an", "binh an", "xba"]
+    "tokens": [
+      "binh an",
+      "ba"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02302",
+    "id": "VN.commune.02545",
     "level": "commune",
-    "code": "02302",
+    "admin_type": "xa",
+    "code": "02545",
     "name_vi": "Minh Quang",
     "slug": "minh-quang",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["minh quang", "mq"]
+    "tokens": [
+      "minh quang",
+      "mq"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02305",
+    "id": "VN.commune.02548",
     "level": "commune",
-    "code": "02305",
+    "admin_type": "xa",
+    "code": "02548",
     "name_vi": "Trung Hà",
     "slug": "trung-ha",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["trung ha", "th"]
+    "tokens": [
+      "trung ha",
+      "th"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02308",
+    "id": "VN.commune.02554",
     "level": "commune",
-    "code": "02308",
+    "admin_type": "xa",
+    "code": "02554",
     "name_vi": "Tân Mỹ",
     "slug": "tan-my",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["tan my", "tm"]
+    "tokens": [
+      "tan my",
+      "tm"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02317",
+    "id": "VN.commune.02572",
     "level": "commune",
-    "code": "02317",
+    "admin_type": "xa",
+    "code": "02572",
     "name_vi": "Yên Lập",
     "slug": "yen-lap",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["yen lap", "yl"]
+    "tokens": [
+      "yen lap",
+      "yl"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02320",
+    "id": "VN.commune.02578",
     "level": "commune",
-    "code": "02320",
+    "admin_type": "xa",
+    "code": "02578",
     "name_vi": "Tân An",
     "slug": "tan-an",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["tan an", "ta"]
+    "tokens": [
+      "tan an",
+      "ta"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02332",
+    "id": "VN.commune.02608",
     "level": "commune",
-    "code": "02332",
+    "admin_type": "xa",
+    "code": "02608",
     "name_vi": "Kiên Đài",
     "slug": "kien-dai",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["kien dai", "kd"]
+    "tokens": [
+      "kien dai",
+      "kd"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02350",
+    "id": "VN.commune.02611",
     "level": "commune",
-    "code": "02350",
+    "admin_type": "xa",
+    "code": "02611",
     "name_vi": "Kim Bình",
     "slug": "kim-binh",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["kim binh", "kb"]
+    "tokens": [
+      "kim binh",
+      "kb"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02353",
+    "id": "VN.commune.02620",
     "level": "commune",
-    "code": "02353",
+    "admin_type": "xa",
+    "code": "02620",
     "name_vi": "Hòa An",
     "slug": "hoa-an",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["hoa an", "ha"]
+    "tokens": [
+      "hoa an",
+      "ha"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   },
   {
-    "id": "VN.commune.02359",
+    "id": "VN.commune.02623",
     "level": "commune",
-    "code": "02359",
+    "admin_type": "xa",
+    "code": "02623",
     "name_vi": "Tri Phú",
     "slug": "tri-phu",
     "parent_province_id": "VN.province.08",
     "parent_district_id": null,
     "postal_codes": [],
-    "tokens": ["tri phu", "tp"]
-  },
-  {
-    "id": "VN.commune.02374",
-    "level": "commune",
-    "code": "02374",
-    "name_vi": "Hàm Yên",
-    "slug": "ham-yen",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["ham yen", "hy"]
-  },
-  {
-    "id": "VN.commune.02380",
-    "level": "commune",
-    "code": "02380",
-    "name_vi": "Bạch Xa",
-    "slug": "bach-xa",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["bach xa", "bx"]
-  },
-  {
-    "id": "VN.commune.02392",
-    "level": "commune",
-    "code": "02392",
-    "name_vi": "Phù Lưu",
-    "slug": "phu-luu",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["phu luu", "pl"]
-  },
-  {
-    "id": "VN.commune.02398",
-    "level": "commune",
-    "code": "02398",
-    "name_vi": "Xã Yên Phú",
-    "slug": "xa-yen-phu",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["yen phu", "xa yen phu", "yp"]
-  },
-  {
-    "id": "VN.commune.02404",
-    "level": "commune",
-    "code": "02404",
-    "name_vi": "Bình Xa",
-    "slug": "binh-xa",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["binh xa", "bx"]
-  },
-  {
-    "id": "VN.commune.02407",
-    "level": "commune",
-    "code": "02407",
-    "name_vi": "Thái Sơn",
-    "slug": "thai-son",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["thai son", "ts"]
-  },
-  {
-    "id": "VN.commune.02419",
-    "level": "commune",
-    "code": "02419",
-    "name_vi": "Thái Hòa",
-    "slug": "thai-hoa",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["thai hoa", "th"]
-  },
-  {
-    "id": "VN.commune.02425",
-    "level": "commune",
-    "code": "02425",
-    "name_vi": "Hùng Đức",
-    "slug": "hung-duc",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["hung duc", "hd"]
-  },
-  {
-    "id": "VN.commune.02434",
-    "level": "commune",
-    "code": "02434",
-    "name_vi": "Lực Hành",
-    "slug": "luc-hanh",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["luc hanh", "lh"]
-  },
-  {
-    "id": "VN.commune.02437",
-    "level": "commune",
-    "code": "02437",
-    "name_vi": "Kiến Thiết",
-    "slug": "kien-thiet",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["kien thiet", "kt"]
-  },
-  {
-    "id": "VN.commune.02449",
-    "level": "commune",
-    "code": "02449",
-    "name_vi": "xã Xuân Vân",
-    "slug": "xa-xuan-van",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["xuan van", "xa xuan van", "xv"]
-  },
-  {
-    "id": "VN.commune.02455",
-    "level": "commune",
-    "code": "02455",
-    "name_vi": "Hùng Lợi",
-    "slug": "hung-loi",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["hung loi", "hl"]
-  },
-  {
-    "id": "VN.commune.02458",
-    "level": "commune",
-    "code": "02458",
-    "name_vi": "Trung Sơn",
-    "slug": "trung-son",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["trung son", "ts"]
-  },
-  {
-    "id": "VN.commune.02470",
-    "level": "commune",
-    "code": "02470",
-    "name_vi": "Tân Long",
-    "slug": "tan-long",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["tan long", "tl"]
-  },
-  {
-    "id": "VN.commune.02473",
-    "level": "commune",
-    "code": "02473",
-    "name_vi": "Yên Sơn",
-    "slug": "yen-son",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["yen son", "ys"]
-  },
-  {
-    "id": "VN.commune.02494",
-    "level": "commune",
-    "code": "02494",
-    "name_vi": "Thái Bình",
-    "slug": "thai-binh",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["thai binh", "tb"]
-  },
-  {
-    "id": "VN.commune.02530",
-    "level": "commune",
-    "code": "02530",
-    "name_vi": "Nhữ Khê",
-    "slug": "nhu-khe",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["nhu khe", "nk"]
-  },
-  {
-    "id": "VN.commune.02536",
-    "level": "commune",
-    "code": "02536",
-    "name_vi": "Sơn Dương",
-    "slug": "son-duong",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["son duong", "sd"]
-  },
-  {
-    "id": "VN.commune.02545",
-    "level": "commune",
-    "code": "02545",
-    "name_vi": "Tân Trào",
-    "slug": "tan-trao",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["tan trao", "tt"]
-  },
-  {
-    "id": "VN.commune.02548",
-    "level": "commune",
-    "code": "02548",
-    "name_vi": "Binh Ca",
-    "slug": "binh-ca",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["binh ca", "bc"]
-  },
-  {
-    "id": "VN.commune.02554",
-    "level": "commune",
-    "code": "02554",
-    "name_vi": "Minh Thanh",
-    "slug": "minh-thanh",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["minh thanh", "mt"]
-  },
-  {
-    "id": "VN.commune.02572",
-    "level": "commune",
-    "code": "02572",
-    "name_vi": "Đông Thọ",
-    "slug": "dong-tho",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["dong tho", "dt"]
-  },
-  {
-    "id": "VN.commune.02578",
-    "level": "commune",
-    "code": "02578",
-    "name_vi": "Tân Thanh",
-    "slug": "tan-thanh",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["tan thanh", "tt"]
-  },
-  {
-    "id": "VN.commune.02608",
-    "level": "commune",
-    "code": "02608",
-    "name_vi": "Hồng Sơn",
-    "slug": "hong-son",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["hong son", "hs"]
-  },
-  {
-    "id": "VN.commune.02611",
-    "level": "commune",
-    "code": "02611",
-    "name_vi": "Phú Lương",
-    "slug": "phu-luong",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["phu luong", "pl"]
-  },
-  {
-    "id": "VN.commune.02620",
-    "level": "commune",
-    "code": "02620",
-    "name_vi": "Sơn Thủy",
-    "slug": "son-thuy",
-    "parent_province_id": "VN.province.08",
-    "parent_district_id": null,
-    "postal_codes": [],
-    "tokens": ["son thuy", "st"]
+    "tokens": [
+      "tri phu",
+      "tp"
+    ],
+    "meta": {
+      "source": "https://datafiles.chinhphu.vn/cpp/files/vbpq/2025/7/19ttg.signed.pdf"
+    }
   }
 ]

@@ -1,13 +1,1 @@
-[
-  {
-    "id": "VN.district.22.06994-dac-khu-van-don",
-    "level": "district",
-    "official_code": null,
-    "name_vi": "Đặc khu Vân Đồn",
-    "slug": "dac-khu-van-don",
-    "type": null,
-    "parent_province_id": "VN.province.22",
-    "postal_codes": [],
-    "tokens": ["dac khu van don", "dkvd"]
-  }
-]
+[]
