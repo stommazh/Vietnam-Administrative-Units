@@ -1,6 +1,6 @@
 # Đơn vị hành chính Việt Nam - Vietnam Administrative Units (updated 7/2025)
 
-#### Generated: 2025-08-08T09:17:52.378085Z
+#### Generated: 2025-08-11
 
 **🇻🇳 [Tiếng Việt](#tiếng-việt) | 🇬🇧 [English](#english)**
 
@@ -69,7 +69,7 @@ Các file JSON trong thư mục `data/` được tạo ra từ file nguồn `dat
 npm install
 ```
 
-**Xây dựng lại từ CSV:**
+**Cập nhật lại dữ liệu**
 ```bash
 node index.mjs ./data/data.csv ./data/generated
 ```
@@ -184,10 +184,6 @@ npx serve .   # or python -m http.server
 
 ### Diacritics-free Search
 - Use `tokens` (normalized without diacritics). Example (JS): `p.tokens.some(t => t.includes(q))` where `q` is already diacritics-free/lowercase.
-
-### Data Updates
-- `scripts/parse_annex_pdf_to_json.py`: extracts Annex II from PDF to regenerate `communes_by_province/*.json` and merge into `all.json`.
-- If official Excel files for districts/communes become available, additional scripts can be written to accurately map `parent_district_id`.
 
 ### Contributing
 - PRs welcome: add missing districts, add `official_code` when available.
